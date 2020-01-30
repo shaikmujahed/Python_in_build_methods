@@ -1,0 +1,11 @@
+def in_parentheses(sentence):
+    if "(" in sentence and ")" in sentence:
+        if sentence.find("(") < sentence.find(")"):
+            return sentence[sentence.find("(") : sentence.find(")")]
+    return ""
+
+print(in_parentheses("This is a sentence (words!)."))
+print(in_parentheses("no parentheses here!"))
+print(in_parentheses("David tends to use parentheses a lot (as he is doinh right now). It tends to be quite annoying."))
+print(in_parentheses("Open (only"))
+print(in_parentheses("closed)only"))
