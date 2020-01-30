@@ -10,3 +10,10 @@ def sort(s_list):
     return artist,price
     artists=[("GOT",500.50),("13 Reasons Why",450.50),("Fitty shde of Graye",250.99)]
     print(sort(artists))
+
+
+#other data type by value or by teference-2.py
+
+def additem(alist):
+    alist.append("New item!")
+    print("alist: ",alist)
