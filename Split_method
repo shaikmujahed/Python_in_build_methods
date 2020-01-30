@@ -1,0 +1,10 @@
+def string_splitter(a_list):
+
+      y=a_list.strip(" ")
+      z=y.replace(" ",", ")
+      a=z.replace(",",'"')
+      b=a.replace(" ",' "')
+      c=b.replace(" ",", ")
+      t=[c]
+      return t
+print(string_splitter("Hello world"))
