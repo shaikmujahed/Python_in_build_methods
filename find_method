@@ -9,3 +9,11 @@ print(in_parentheses("no parentheses here!"))
 print(in_parentheses("David tends to use parentheses a lot (as he is doinh right now). It tends to be quite annoying."))
 print(in_parentheses("Open (only"))
 print(in_parentheses("closed)only"))
+
+
+myString="ABCDEABCDEABCDE"
+print(myString.find("CDE"))
+print(myString.find("CDE",5))
+print(myString.find("CDE",13))
+print(myString.find("CDE",4,10))
+print(myString.find("CDE",3,6))
