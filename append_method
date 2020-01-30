@@ -1,0 +1,12 @@
+def sort(s_list):
+    artist=[]
+    price=[]
+    for z in s_list:
+        artist.append(z[0])
+        price.append(z[1])
+    artist.sort()
+    price,sort()
+
+    return artist,price
+    artists=[("GOT",500.50),("13 Reasons Why",450.50),("Fitty shde of Graye",250.99)]
+    print(sort(artists))
