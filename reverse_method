@@ -1,0 +1,13 @@
+
+def sort_artists(alist):
+    artists=[]
+    sales=[]
+    for artist_tuple in alist:
+        artists.append(artist_tuple[0])
+        sales.append(artist_tuple[1])
+    artists.sort()
+    sales.sort()
+    sales.reverse()
+    return (artists,sales)
+artists = [("The Beatles", 270.8, ("Elvis Presley", 211.5), ("Michael Jackson", 183.9))]
+print(sort_artists(artists))
