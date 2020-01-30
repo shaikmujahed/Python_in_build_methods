@@ -1,0 +1,14 @@
+def in_parentheses(sentence):
+    try:
+        return sentence[sentence.index("(") + 1:sentence.index(")")]
+    except ValueError:
+         return ""
+
+print(in_parentheses("This is a sentence (words!)."))
+print(in_parentheses("No parentheses here!"))
+print(in_parentheses("David tends to use parentheses a lot (as he is doing right now). It tends to be quite annoying."))
+print(in_parentheses("Open ( only"))
+print(in_parentheses("Closed ) only"))
+print(in_parentheses("Closed ) before ( open"))
+print(in_parentheses("That's a lot of test cases(!)"))
+print("\n")
