@@ -1,0 +1,52 @@
+a="mohsin anna mohsin"
+sub="mo"
+print("Count of",sub,":",a.count(sub))
+
+
+
+# \\** split([separator]) ** \\
+# it will separater to string in smaller list of string\
+
+
+myString="This is my text. It has thirteen " \
+           "words. It also has three sentences."
+print(myString.split())
+m="mujahed this is my name i have an another name peoples used to called me. "
+print(m.split())
+
+
+myString="This is. my text. It has. thirteen "\
+         "word. It also. has three sentences."
+print(myString.split("."))
+
+
+# if you want to split string by a period but cant want to remove last
+# period of string and also cant want to separate last space.
+# used space after period in split method (". ") like
+
+mystring1="This is my text. It has thirteen "\
+           "words. It also has three sentences."
+print(mystring1.split(". "))
+
+
+myString="This is my test string!"
+print(myString)
+print(myString.capitalize())
+print(myString.title())
+print(myString.upper())
+print(myString.lower())
+print(myString.replace("my","your"))
+print(myString.rfind("s"))
+print(myString)
+print(myString.strip())
+print(myString.rstrip())
+print(myString.split())
+print("-".join(myString))
+print(myString)
+
+
+mystringTOSplit="My-string-to-split"
+print(mystringTOSplit)
+
+mysplitstring=mystringTOSplit.split("-")
+print(mysplitstring)
