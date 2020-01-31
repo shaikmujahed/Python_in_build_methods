@@ -50,3 +50,12 @@ print(mystringTOSplit)
 
 mysplitstring=mystringTOSplit.split("-")
 print(mysplitstring)
+
+
+myjoinedstring="-".join(mysplitstring)
+print(myjoinedstring)
+
+name="mu,jah,ed"
+a=name.split(",")
+print(a)
+print(",".join(a))
