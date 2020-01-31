@@ -1,0 +1,27 @@
+
+# boolean methods 
+myString="a"
+print(myString.isalpha())
+
+a="1.2345"
+print(a.isdecimal())
+
+m="12345"
+print(m.isdigit())
+
+name="mujahed"
+print(name.islower())
+print(name.isupper())
+a="Mujahed"
+print(a.istitle())
+
+
+def valid_char(string):
+    if ord(string)>= 33:
+      if ord(string)<=255:
+        return True
+    return False
+print(valid_char("a"))
+print(valid_char(" "))
+print(valid_char("!"))
+print(valid_char("☺"))
